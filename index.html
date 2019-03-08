@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>WakeMeApp</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -21,10 +21,106 @@
       media="screen"
       href="styles/main.css"
     />
-    <script src="main.js"></script>
   </head>
   <body>
+    <div class="my_container">
+      <div class="page_title_area">
+        <h1 class="page_title">WakeMeApp</h1>
+      </div>
+      <div class="tab_wrap">
+        <div class="tab_area">
+          <label class="tab_app active" for="app">App</label>
+          <label class="tab_privacy_policy" for="panel_privacy_policy"
+            >Privacy Policy</label
+          >
+          <label
+            class="tab_terms_and_conditions"
+            for="panel_terms_and_conditions"
+            >Terms & Conditions</label
+          >
+        </div>
+        <div class="panel_area">
+          <div id="panel_app" class="panel">
+            <h3>App</h3>
+            <p>Example.</p>
+          </div>
+          <div id="panel_privacy_policy" class="panel">
+            <h3>Privacy Policy</h3>
+            <p>Example.</p>
+          </div>
+          <div id="panel_terms_and_conditions" class="panel">
+            <h3>Terms & Conditions</h3>
+            <p>Example.</p>
+          </div>
+        </div>
+      </div>
+      <!-- <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item">
+          <a
+            id="app_tab"
+            class="nav-link active"
+            data-toggle="tab"
+            role="tab"
+            href="#app"
+            aria-controls="app"
+            aria-selected="true"
+            >App</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            id="privacy_policy_tab"
+            class="nav-link"
+            data-toggle="tab"
+            role="tab"
+            href="#privacy_policy"
+            aria-controls="privacy_policy"
+            aria-selected="true"
+            >Privacy Policy</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            id="terms_and_conditions_tab"
+            class="nav-link"
+            data-toggle="tab"
+            role="tab"
+            href="#terms_and_conditions"
+            aria-controls="terms_and_conditions"
+            aria-selected="true"
+            >Terms & Conditions</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div
+          id="app"
+          class="tab-pane fade show active"
+          role="tabpanel"
+          aria-labelledby="app_tab"
+        >
+          <h3>App</h3>
+        </div>
+        <div
+          id="privacy_policy"
+          class="tab-pane fade"
+          role="tabpanel"
+          aria-labelledby="privacy_policy_tab"
+        >
+          <h3>Privacy Policy</h3>
+        </div>
+        <div
+          id="terms_and_conditions"
+          class="tab-pane fade"
+          role="tabpanel"
+          aria-labelledby="terms_and_conditions_tab"
+        >
+          <h3>Terms & Conditions</h3>
+        </div>
+      </div> -->
+    </div>
     <!-- Optional JavaScript -->
+    <script src="scripts/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
