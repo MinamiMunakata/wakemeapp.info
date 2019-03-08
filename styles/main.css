@@ -1,0 +1,44 @@
+.my_container {
+  background-color: #f8e7c1;
+}
+.page_title_area {
+  height: 130px;
+}
+
+.page_title {
+  color: #db8623;
+  text-align: center;
+  line-height: 130px;
+}
+.tab_area {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tab_area label {
+  background-color: #db8623;
+  margin: 0 5px;
+  border-radius: 5px 5px 0 0;
+  height: 100%;
+  line-height: 50px;
+  width: 30%;
+  text-align: center;
+  color: white;
+}
+
+.tab_area .active {
+  background-color: white;
+  color: #db8623;
+}
+
+.panel_area {
+  background-color: white;
+}
+
+.panel {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
