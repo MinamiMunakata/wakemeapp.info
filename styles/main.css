@@ -1,5 +1,6 @@
 .my_container {
   background-color: #f8e7c1;
+  font-family: "Cabin", Robot, "Open Sans", sans-serif;
 }
 .page_title_area {
   height: 130px;
@@ -9,6 +10,8 @@
   color: #db8623;
   text-align: center;
   line-height: 130px;
+
+  font-weight: bold;
 }
 .tab_area {
   height: 50px;
