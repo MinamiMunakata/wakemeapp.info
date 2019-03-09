@@ -77,3 +77,7 @@ article.panel {
 article h3 {
   margin: 0 0 40px;
 }
+
+#overview_image {
+  width: 100%;
+}
