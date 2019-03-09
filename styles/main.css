@@ -1,7 +1,12 @@
-.my_container {
+body {
   background-color: #f8e7c1;
-  font-family: "Cabin", Robot, "Open Sans", sans-serif;
 }
+
+.my_container {
+  font-family: "Cabin", Robot, "Open Sans", sans-serif;
+  color: #333;
+}
+
 .page_title_area {
   height: 130px;
 }
@@ -10,14 +15,23 @@
   color: #db8623;
   text-align: center;
   line-height: 130px;
-
   font-weight: bold;
 }
+
 .tab_area {
   height: 50px;
   width: 100%;
   text-align: center;
   margin: 0 auto;
+}
+
+.tab_area .active a {
+  color: #db8623;
+}
+
+.tab_area a {
+  text-decoration: none;
+  color: white;
 }
 
 .tab_area label {
@@ -43,5 +57,23 @@
 .panel {
   width: 70%;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 80px 0;
+  display: none;
+}
+
+.panel.active {
+  display: block;
+}
+
+.panel section {
+  padding: 5px 0;
+}
+
+article.panel {
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+article h3 {
+  margin: 0 0 40px;
 }
